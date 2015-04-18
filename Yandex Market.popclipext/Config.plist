@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Yandex Market</string>
+				<key>ru</key>
+				<string>Яндекс Маркет</string>
+			</dict>
+			<key>URL</key>
+			<string>https://market.yandex.ru/search.xml?cvredirect=2&amp;text={popclip text}</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://market.yandex.ru</string>
+			<key>Name</key>
+			<string>Yandex</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://github.com/nikolalek</string>
+			<key>Name</key>
+			<string>Aleksey Nikolaev</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Search the web using Yandex Market</string>
+		<key>ru</key>
+		<string>Искать на Яндекс Маркете</string>
+	</dict>
+	<key>Extension Identifier</key>
+	<string>com.nikolalek.popclip.extension.yandexmarket</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Yandex Market</string>
+		<key>ru</key>
+		<string>Яндекс Маркет</string>
+	</dict>
+</dict>
+</plist>
